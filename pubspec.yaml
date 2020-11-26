@@ -1,0 +1,42 @@
+name: piano_app
+description: A piano application
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+  audioplayers: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/piano_notes/A3.wav
+    - assets/piano_notes/Ab3.wav
+    - assets/piano_notes/B3.wav
+    - assets/piano_notes/Bb3.wav
+    - assets/piano_notes/C2.wav
+    - assets/piano_notes/C3.wav
+    - assets/piano_notes/D2.wav
+    - assets/piano_notes/Db2.wav
+    - assets/piano_notes/E2.wav
+    - assets/piano_notes/Eb2.wav
+    - assets/piano_notes/F2.wav
+    - assets/piano_notes/G2.wav
+    - assets/piano_notes/Gb2.wav
+
+
+
